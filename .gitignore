@@ -1,3 +1,4 @@
 # Ignore Gradle distribution files
 gradle/
 .gradle/
+gradle-7.2-bin.zip
