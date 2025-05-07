@@ -37,7 +37,6 @@ android {
     }
 }
 
-// Add resolution strategy to enforce androidx.lifecycle version
 configurations.all {
     resolutionStrategy {
         force 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1'
@@ -49,6 +48,7 @@ configurations.all {
         force 'androidx.lifecycle:lifecycle-livedata-core:2.5.1'
         force 'androidx.lifecycle:lifecycle-process:2.5.1'
         force 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1'
+        force 'org.slf4j:slf4j-api:1.7.36' // Force a compatible version
     }
 }
 
@@ -60,8 +60,8 @@ dependencies {
     implementation 'androidx.camera:camera-core:1.1.0'
     implementation 'androidx.camera:camera-camera2:1.1.0'
     implementation 'androidx.camera:camera-lifecycle:1.1.0'
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1' // Set to 2.5.1
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1' // Set to 2.5.1
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
     implementation 'io.github.jan-tennert.supabase:supabase-kt:3.1.4'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
     testImplementation 'junit:junit:4.13.2'
