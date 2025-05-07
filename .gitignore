@@ -1,0 +1,3 @@
+# Ignore Gradle distribution files
+gradle/
+.gradle/
