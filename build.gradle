@@ -9,10 +9,6 @@ buildscript {
     }
 }
 
-allprojects {
-    // No repositories block here since it's handled in settings.gradle
-}
-
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
