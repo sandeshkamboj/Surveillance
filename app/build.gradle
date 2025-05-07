@@ -48,7 +48,7 @@ configurations.all {
         force 'androidx.lifecycle:lifecycle-livedata-core:2.5.1'
         force 'androidx.lifecycle:lifecycle-process:2.5.1'
         force 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1'
-        force 'org.slf4j:slf4j-api:1.7.36' // Force a compatible version
+        force 'org.slf4j:slf4j-api:1.7.36'
     }
 }
 
