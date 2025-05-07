@@ -1,4 +1,7 @@
-# Ignore Gradle distribution files
-gradle/
+# Ignore Gradle build cache and distribution files
 .gradle/
 gradle-7.2-bin.zip
+
+# Ignore Gradle directory except for the wrapper
+gradle/*
+!gradle/wrapper/
